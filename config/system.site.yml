@@ -1,0 +1,14 @@
+uuid: 5853bb03-fcee-47e6-a1de-c9a84263e401
+name: breema-drupal8
+mail: git@dwwright.net
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
