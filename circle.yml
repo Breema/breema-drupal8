@@ -16,6 +16,8 @@ machine:
     # TERMINUS_TOKEN: The Pantheon machine token
     # GITHUB_TOKEN:   The GitHub personal access token
     # GIT_EMAIL:      The email address to use when making commits
+    GIT_EMAIL: breema.drupal+CircleCI@gmail.com
+    GIT_USER: Breema CircleCI Robot
     #
     # TEST_SITE_NAME: The name of the test site to provide when installing.
     # ADMIN_PASSWORD: The admin password to use when installing.
