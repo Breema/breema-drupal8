@@ -67,8 +67,8 @@ dependencies:
 
 test:
   override:
-    # - run-behat
-    - echo "Tests skipped since behat is unpredictable"
+    - run-behat
+    # - echo "Tests skipped since behat is unpredictable"
   post:
     - terminus secrets:set -n "$TERMINUS_SITE.$TERMINUS_ENV" token "$GITHUB_TOKEN" --file='github-secrets.json' --clear --skip-if-empty
 
