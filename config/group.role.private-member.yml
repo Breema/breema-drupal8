@@ -1,0 +1,15 @@
+uuid: 9731c34d-a24b-42ab-a1c8-9d7d9fcbe127
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.private
+id: private-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: private
+permissions_ui: true
+permissions:
+  - 'view group'

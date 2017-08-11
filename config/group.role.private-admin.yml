@@ -1,0 +1,23 @@
+uuid: d68a8b16-783a-4a39-8e65-4ba2a84fda20
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.private
+id: private-admin
+label: Admin
+weight: 100
+internal: false
+audience: member
+group_type: private
+permissions_ui: true
+permissions:
+  - 'access content overview'
+  - 'administer group'
+  - 'delete group'
+  - 'edit group'
+  - 'administer members'
+  - 'update own group_membership content'
+  - 'leave group'
+  - 'view group_membership content'
+  - 'view group'
